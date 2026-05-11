@@ -1,0 +1,51 @@
+*{
+
+color: #FFD700;
+}
+
+body{
+    background: linear-gradient(135deg, #0a0a0a, #1c1c1c, #2b0033);
+}
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#header1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: flex-start;
+    flex-direction: column;
+}
+
+#h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#p1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+aside{
+        display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    padding: 2px;
+
+}
+
+footer{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+}
+#criativo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        display: flex;
+    align-items: center;
+    justify-content: center;
+}
